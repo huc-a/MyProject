@@ -26,5 +26,8 @@ public class ViewController {
         return "login";
     }
 
-
+    @GetMapping("/tu")
+    public String tuuploadfile() {
+        return "/tuuploadfile";
+    }
 }
