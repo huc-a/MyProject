@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机产品订购页面</title>
+    <meta name="Keywords" content="手机订购，便捷购物">
+    <meta name="Description" content="在这里选择您心仪的手机，填写订购信息进行下单">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/edithotel.css">
+</head>
+
+<body>
+
+<!-- 导航 -->
+<iframe style="height:40px" align="center" width="100%" src="nav.html" frameborder="no" border="0" marginwidth="0"
+        marginheight="0" scrolling="no"></iframe>
+
+<!-- 横幅广告 -->
+<section class="banner" id="banner">
+    <ul id="carousel_list" class="carousel_list">
+        <li>
+            <img src="../images/bg2.jpg" alt="">
+        </li>
+    </ul>
+</section>
+
+<div class="product-order">
+    <h1>手机产品订购</h1>
+</div>
+
+<!-- 页面主内容 -->
+<center>
+    <form action="" method="post">
+        <div class="order-info">
+            <!-- 这里假设点击产品进入后，产品相关信息比如名称等可以通过其他方式展示，此处暂不添加该部分展示逻辑 -->
+
+            <div class="quantity-select">
+                <label for="quantity">订购数量：</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+
+            <div class="color-select">
+                <label for="colortype">选择颜色：</label>
+                <select id="colortype" name="colortype" required>
+                    <option value="黑色">黑色</option>
+                    <option value="白色">白色</option>
+                    <option value="红色">红色</option>
+                    <!-- 这里可以根据实际手机有的颜色选项继续添加 -->
+                </select>
+            </div>
+
+            <div class="memory-select">
+                <label for="memory">选择内存型号：</label>
+                <select id="memory" name="memory" required>
+                    <option value="8GB">8GB</option>
+                    <option value="16GB">16GB</option>
+                    <option value="32GB">32GB</option>
+                    <!-- 同样按实际内存型号添加选项 -->
+                </select>
+            </div>
+
+            <input class="button" type="submit" value="确定订购">
+            <input class="button" type="reset" value="重置信息">
+        </div>
+    </form>
+</center>
+
+<!-- 页脚 -->
+<iframe style="height:280px" align="center" width="100%" src="footer.html" frameborder="no" border="0" marginwidth="0"
+        marginheight="0" scrolling="no"></iframe>
+
+</body>
+
+</html>

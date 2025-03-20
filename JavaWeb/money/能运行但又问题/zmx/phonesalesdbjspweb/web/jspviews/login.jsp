@@ -1,0 +1,43 @@
+<%--
+  登录页面
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机电商平台</title>
+    <meta name="Keywords" content="一部手机浏览天下">
+    <meta name="Description" content="我们有专业的人员，为您提供全方位手机购买服务">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/hotellogo.css">
+</head>
+<body>
+<section>
+    <div class="login">
+        <div>
+            <form action="login.do" method="post">
+                <div>
+                    <p><span style="color:#fefbfb;margin-right: 20px;">用户账号</span><input type="text" class="inputstyle"
+                           name="useraccount" placeholder="您的用户账号"></p>
+                </div>
+                <div>
+                    <p><span style="color:#f8f7f7;margin-right: 20px;">登录密码</span><input type="password"
+                            class="inputstyle" name="pwd" placeholder="您的登录密码"></p>
+                </div>
+                <div>
+                    <p><input type="submit" class="orangebuttoncss" value="登录">
+                        <input type="button" class="bluebuttoncss" value="取消">
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+
+</html>

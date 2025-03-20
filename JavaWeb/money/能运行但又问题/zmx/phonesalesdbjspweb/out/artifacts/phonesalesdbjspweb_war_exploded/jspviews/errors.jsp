@@ -1,0 +1,44 @@
+<%--
+  错误页面
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手机电商平台</title>
+    <meta name="Keywords" content="一部手机浏览天下">
+    <meta name="Description" content="我们有专业的人员，为您提供全方位手机购买服务">
+    <link rel="stylesheet" href="../css/errors.css">
+</head>
+
+<body>
+<!-- 页面主内容 -->
+<div class="title">
+    <h1>出错啦！</h1>
+</div>
+
+
+<div class="inner">
+
+    <div class="edit">
+        <div class="edit-left">
+            <img src="../images/error.jpg">
+        </div>
+        <div class="edit-right">
+            <div>
+                <h2>${errMsg}</h2>
+            </div>
+            <a href="${backUrl}">返回上一个页面</a>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+</html>

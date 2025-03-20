@@ -1,0 +1,102 @@
+
+/*table表格样式设置*/
+.table_div{
+	width: 90%;
+	margin: auto;
+}
+.table_box{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background-color: #ffffff;
+}
+.table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+}
+.table td, table th {
+	height: 45px;
+	line-height: 45px;
+	padding: .75rem;
+	font-weight: 500;
+}
+.table thead th {
+	width: 100px;
+	color: #fff;
+	background-color: #FEDEB5;
+	border: none;
+}
+.table tbody tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.table tbody td {
+	border: 1px solid#e3e3e3;
+	color: rgb(103, 117, 124);
+}
+.table tbody tr td a {
+	color: #2E2E2E;
+	text-decoration: none;
+	border-bottom: none;
+}
+.table tbody tr td a:hover {
+	color: #bebebe;
+}
+
+.list{
+	width: 100%;
+	height: auto;
+}
+.list_item {
+	width: 25%;
+	height: 400px;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.list_item_info {
+	width: 95%;
+	height: 100%;
+	margin: auto;
+	background-color: #ffffff;
+	border-radius: 10px;
+	transition: transform 0.5s ease;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 16px 32px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.list_item_info:hover {
+	transform: scale(1.1);
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 32px 64px 0 rgba(0, 0, 0, 0.19);
+}
+.list_item_info_img {
+	width: 100%;
+	height: 65%;
+}
+.list_item_info_img img{
+	width: 100%;
+	height: 100%;
+}
+.list_item_info_title {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: bolder;
+	display: block;
+	margin-bottom: 20px;
+}
+.list_item_info_price{
+	width: 20%;
+	float: left;
+	color: red;
+}
+.list_item_info_jump{
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: #bebebe;
+}

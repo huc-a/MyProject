@@ -1,0 +1,146 @@
+.header-con {
+    height: 36px;
+    padding: 21px 0;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    text-align: center;
+    /* width: 500px; */
+}
+
+.header-con .header-center {
+
+    width: 800px;
+    margin: 0 auto;
+    ;
+}
+
+.header-con h1 {
+    float: left;
+    font-size: 24px;
+    color: #0086f6;
+    line-height: 36px;
+
+}
+
+.header-con .soso-box {
+    float: left;
+    margin-left: 20px;
+    /* width: 300px; */
+    padding-top: 2px;
+}
+
+.header-con .soso-box input {
+    float: left;
+    width: 250px;
+    height: 28px;
+    border: 1px solid #0086f6;
+    /* 分别按四个角进行设置 */
+    /* border-radius: 4px 0 0 4px; */
+    font-size: 14px;
+    /* 取消默认的外线（外线是文本框特有的东西） */
+    outline: none;
+    padding-left: 10px;
+}
+
+.header-con .soso-box .btn {
+    float: left;
+    width: 32px;
+    height: 30px;
+    background-color: #0086f6;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 0 4px 4px 0;
+}
+
+
+
+
+.mainbox0 {
+
+    width: 1152px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.mainbox0 h1 {
+    display: inline;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.mainbox0 span {
+
+    font-size: 14px;
+
+    color: black;
+
+}
+
+.mainbox {
+
+    width: 1152px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainbox .sbox {
+
+    width: 265px;
+    border: 1px solid #e5e5e5;
+
+    margin-bottom: 20px;
+
+}
+
+.mainbox .sbox .picbox img {
+
+    width: 265px;
+    height: 168px;
+    border-radius: 0%;
+
+}
+
+.mainbox .wordbox {
+
+    padding: 15px;
+    color: #1C1F21;
+    font-size: 14px;
+
+}
+
+.mainbox .wordbox p {
+
+    width: 200px;
+
+}
+
+
+.wordbox span {
+    color: red;
+    font-family: "PingFangSCRegular";
+}
+
+.wordbox h1 {
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.wordbox p {
+
+    margin-top: 20px;
+
+}
+
+button {
+    border: none;
+}

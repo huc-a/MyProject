@@ -1,0 +1,105 @@
+body {
+    font-family: "PingFangSCRegular";
+    background-image: url("../images/dl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 50px;
+}
+
+.editbox {
+    background: #ffffff;
+    border: 1px solid #b7b7b7;
+    color: #003366;
+    cursor: text;
+
+    font-size: 11pt;
+    width: 150px;
+    height: 23px;
+    padding: 3px;
+    /* border-radius: 5px 5px 5px 5px; */
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+
+.inputstyle {
+    width: 232px;
+    position: relative;
+    height: 16px;
+    padding: 10px 0 10px 16px;
+    line-height: 16px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background: #fff;
+    color: #000;
+    font-family: PingFang SC;
+    font-size: 13px;
+}
+
+.orangebuttoncss {
+
+
+    font-size: 11pt;
+    color: #ffffff;
+    border: 0px #FF8000 solid;
+    background-color: #09f;
+    cursor: hand;
+    font-style: normal;
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+
+.bluebuttoncss {
+
+    font-size: 11pt;
+    color: #ffffff;
+    border: 0px #81BEF7 solid;
+    background-color: #09f;
+    cursor: hand;
+    font-style: normal;
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+
+.lg_loginwrap {
+    position: relative;
+    background-color: rgba(0, 0, 0, .6);
+    width: 250px;
+
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.login {
+
+
+    margin: 150px auto;
+    width: 800px;
+    background-color: rgba(252, 252, 252, 0.3);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 1px solid #000000; */
+
+
+}
+
+.login td {
+    /* color: #fff; */
+    text-align: left;
+}

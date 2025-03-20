@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Project\Javaweb图书管理系统\Javaweb-book-manage\book_manage\1.JavaWeb图书管理系统-基础版\1.idea\3.源码\book_manage\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

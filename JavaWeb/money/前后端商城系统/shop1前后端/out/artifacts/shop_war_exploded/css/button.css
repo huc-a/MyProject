@@ -1,0 +1,47 @@
+/*增删改查按钮 a标签button样式*/
+.button_atag{
+	background-color: #fff;
+	display: inline-block;
+	border: 1px solid #848484;
+	line-height: 20px;
+	text-align: center;
+	color: #2E2E2E;
+	width: 100px;
+	height: 20px;
+	padding: 5px;
+	text-decoration: none;
+}
+.button_atag:hover{
+	background-color: #f2f2f2;
+}
+/*返回按钮 a标签button*/
+.button_back{
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	color: #2E2E2E;
+}
+.button_back:hover{
+	color: #BEBEBE;
+}
+/*button标签按钮样式*/
+.button_action{
+	border: 1px solid #848484;
+	line-height: 25px;
+	text-align: center;
+	width: 150px;
+	height: 35px;
+	font-size: 15px;
+	background-color: #FCB792;
+	border-color: #FCB792;
+	color: #fff;
+	cursor: pointer;
+}
+.button_action:hover {
+	background: #FBD18B;
+	border-color: #FBD18B;
+	color:#fff;
+}
+
+
+
